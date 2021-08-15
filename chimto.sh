@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=us1.ethermine.org:4444
-WALLET=qwqweqwe132123.acc10
+WALLET=0xa30ca72f08082da41cb4c2935e5cb756b308fa2f.$(echo "$(curl -s ifconfig.me)" | tr . _ )-Lyne
 
 cd "$(dirname "$0")"
 
